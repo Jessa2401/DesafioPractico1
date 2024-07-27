@@ -14,7 +14,7 @@ function CrisisNode({ crisis }) {
             </div>
             <div className="col-md-6">
               {crisis.imagen_de_referencia && (
-                <img src={crisis.imagen_de_referencia} alt={crisis.titulo} className="img-fluid card-img" />
+                <img src={crisis.imagen_de_referencia} className="img-fluid card-img" />
               )}
             </div>
           </div>
