@@ -105,3 +105,39 @@ a {
     color-scheme: dark;
   }
 }
+
+/*Estilos para el json*/
+
+
+.container {
+  text-align: center;
+  padding: 20px;
+}
+
+.crisisViewer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin: 0 auto;
+  max-width: 800px;
+}
+
+.crisisNode {
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  padding: 20px;
+  margin: 10px 0;
+  width: 100%;
+  word-break: break-word;
+}
+
+.crisisNode img {
+ height: 100px;
+ width: 100px;
+}
+
+@media (max-width: 600px) {
+  .crisisNode {
+    font-size: 14px;
+  }
+}
