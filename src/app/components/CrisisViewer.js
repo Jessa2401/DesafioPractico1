@@ -8,8 +8,8 @@ import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 function CrisisViewer({ data }) {
   return (
     <div>
-      {data.map((crisis, index) => (
-        <CrisisNode key={index} crisis={crisis} />
+      {data.map((crisis, idcrisis) => (
+        <CrisisNode key={idcrisis} crisis={crisis} />
       ))}
     </div>
   );

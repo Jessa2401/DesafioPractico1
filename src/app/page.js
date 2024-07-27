@@ -9,7 +9,7 @@ export default function Home() {
   const [data, setData] = useState(null);
 
   useEffect(() => {
-    fetch('/crisis-recientes.json')
+    fetch('/empresas-valiosas.json')
       .then(response => response.json())
       .then(data => setData(data));
   }, []);
